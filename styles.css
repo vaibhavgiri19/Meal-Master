@@ -202,3 +202,82 @@ form i:hover {
         font-size: 2rem;
     }
 }
+
+.favorites-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.favorites-button:hover {
+    background-color: #0056b3;
+}
+/* Navbar Styles */
+.navbar {
+    background-color:#1A3636;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-message {
+    font-size: 1.4rem;
+    margin-right: 30px;
+}
+
+.nav-button {
+    background-color: white;
+    color: #65B741;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Make navbar responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .nav-button {
+        margin: 5px 0;
+    }
+}
