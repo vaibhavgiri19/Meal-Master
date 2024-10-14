@@ -1,4 +1,4 @@
-import appkey from './env.js';  // Ensure env.js exports a valid appkey
+import appkey from './env.js';  
 
 // Select elements
 const searchForm = document.querySelector('form');
