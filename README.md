@@ -1,6 +1,6 @@
 # Meal Master
 
-**Meal Master ** Meal Master is a web application designed to help users find recipes based on their available ingredients, while providing important nutritional information such as calorie content. This project makes meal preparation simpler and encourages users to try new recipes tailored to their preferences.
+Meal Master  is a web application designed to help users find recipes based on their available ingredients, while providing important nutritional information such as calorie content. This project makes meal preparation simpler and encourages users to try new recipes tailored to their preferences.
 
 ## 🌟 Features
 - Ingredient-Based Search: Users can input ingredients and discover recipes that include those items.
